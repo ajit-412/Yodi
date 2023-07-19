@@ -1,10 +1,10 @@
 # Yodi
 Yoga and Diet App
 
-![IMG_20220214_025530](https://github.com/ajit-412/Yodi/assets/87409552/823bee39-e6b7-46c3-ab9a-5fb5861839b1) ![IMG_20220214_014749](https://github.com/ajit-412/Yodi/assets/87409552/9b9dc188-0e56-4ad4-a74b-4e4b5e2d8d00)
+![IMG_20220214_025530](https://github.com/ajit-412/Yodi/assets/87409552/823bee39-e6b7-46c3-ab9a-5fb5861839b1) 
 
 
-
+![IMG_20220214_014749](https://github.com/ajit-412/Yodi/assets/87409552/9b9dc188-0e56-4ad4-a74b-4e4b5e2d8d00)
 
 
 ![splash_screen](https://github.com/ajit-412/Yodi/assets/87409552/c4ce77e3-4c25-4205-aa09-8a9dee7dc44d)
