@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yodi</string>
+    <string name="splash_screen">splash screen</string>
+
+    <string name="about_us_head">About Us</string>
+    <string name="about_us">The Yodi (Yoga And Diet) App Is The App For Every Beginner For Yoga And Diet Tips. You can select your problem and see yoga and diet according to your selection.\nYoga is amazing with a lot of benefits. Our mission is to help you inculcate the habit of yoga. Instead of spending huge sums of money for yoga studios, use this app to practice yoga wherever you want, whenever you want.\nYodi is suitable to many forms of yoga routines like hatha yoga, pranayama, vinyasa yoga, yin yoga, yoga asanas, ashtanga yoga, core yoga, power yoga, iyengar yoga and baba ramdev yoga. Yodi help you to find a diet tips suited according to your need. Diet tips will hep you add some good nutrition and maintain healthy lifestyle.</string>
+
+    <string name="get_otp">Get OTP</string>
+
+    <string name="resend_otp">Resend OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+
+    <string name="login_head">EXPLORE NEW LIFE STYLE WITH YOGA</string>
+    <string name="continue_with_mobile_number">Continue With Mobile Number</string>
+    <string name="sign_in_with_gmail">Sign In With Gmail</string>
+
+    <string name="profile_first_name">Ajit</string>
+    <string name="profile_last_name">Singh</string>
+    <string name="profile_mobile_no">+91 9519190401</string>
+    <string name="profile_email_id">ajit.singh@gmail.com</string>
+
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="email_id_hint">Email id</string>
+    <string name="register_btn">Register</string>
+
+
+    <string-array name="disease_name">
+        <item>Asthma</item>
+        <item>Migraine</item>
+        <item>Diabetes</item>
+        <item>Thyroid</item>
+        <item>Indigestion</item>
+        <item>Liver Problem</item>
+        <item>Depression</item>
+        <item>High Blood Pressure</item>
+        <item>Low Blood Pressure</item>
+        <item>Weight Loss</item>
+    </string-array>
+
+</resources>
+
+
+    <!--<string name="login_image">login image</string>-->
+    <!--<string name="mobile_button">Continue With Mobile Number</string>-->
+    <!--<string name="or">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;OR&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</string>-->
+    <!--<string name="google">google</string>-->
+    <!--<string name="facebook">facebook</string>-->
+    <!--<string name="mobile_image">mobile image</string>-->
+    <!--<string name="main_heading">Enter Phone Number for Verification</string>-->
+    <!--<string name="heading_des">You shall receive a SMS for verification</string>-->
+    <!--<string name="country_code">+91</string>-->
+    <!--<string name="mobile_number">Your Number</string>-->
+
+    <!--<string name="mobile_otp">mobile otp</string>-->
+    <!--<string name="verify_btn">Verify</string>-->
+    <!--<string name="ques_otp">"Didn't Receive the OTP ?"</string>-->
+    <!--<string name="head">Set up your account</string>-->
+    <!--<string name="head_des">Tell us a bit more about yourself</string>-->
+    <!--<string name="otp_head">We have sent a verification code to</string>-->
+    <!--<string name="entered_mobile_no">entered mobile no</string>-->
+    <!--<string name="enterotp">Enter OTP</string>-->

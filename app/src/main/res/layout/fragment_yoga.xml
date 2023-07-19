@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".Fragments.Yoga.YogaFragment">
+
+    <TextView
+        android:id="@+id/yodi_yoga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:fontFamily="@font/belgrano"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Yodi's Yoga"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/yoga_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:fontFamily="@font/actor"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Asthma"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_below="@+id/yodi_yoga"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/yoga_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/yoga_list_title"
+        android:background="@color/black"/>
+
+</RelativeLayout>
+
+
+
+
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="fill_parent"-->
+    <!--        android:layout_height="fill_parent"-->
+    <!--        android:layout_weight="1.0"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        <ScrollView-->
+    <!--            android:layout_width="fill_parent"-->
+    <!--            android:layout_height="fill_parent"-->
+    <!--            android:layout_weight="1.0"-->
+    <!--            android:scrollbars="none">-->
+
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="fill_parent"-->
+    <!--                android:layout_height="fill_parent"-->
+    <!--                android:orientation="vertical">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="fill_parent"-->
+    <!--                    android:layout_height="100dp"-->
+    <!--                    android:layout_gravity="center"-->
+    <!--                    android:gravity="center"-->
+    <!--                    android:orientation="vertical">-->
+
+    <!--                    <LinearLayout-->
+    <!--                        android:id="@+id/one"-->
+    <!--                        android:layout_width="fill_parent"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:layout_margin="10dp"-->
+    <!--                        android:orientation="horizontal">-->
+
+    <!--                        <LinearLayout-->
+    <!--                            android:layout_width="fill_parent"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:layout_margin="10dp"-->
+    <!--                            android:layout_weight="1.0"-->
+    <!--                            android:orientation="vertical">-->
+
+    <!--                            <TextView-->
+    <!--                                android:layout_width="wrap_content"-->
+    <!--                                android:layout_height="wrap_content"-->
+    <!--                                android:fontFamily="monospace"-->
+    <!--                                android:text="Ajit Singh"-->
+    <!--                                android:textAllCaps="true"-->
+    <!--                                android:textColor="@color/white"-->
+    <!--                                android:textSize="18sp"-->
+    <!--                                android:textStyle="bold"/>-->
+
+    <!--                            <TextView-->
+    <!--                                android:layout_width="wrap_content"-->
+    <!--                                android:layout_height="wrap_content"-->
+    <!--                                android:layout_marginLeft="20dp"-->
+    <!--                                android:text="X20"-->
+    <!--                                android:textColor="#46C82F"-->
+    <!--                                android:textSize="15sp"-->
+    <!--                                android:textStyle="bold"/>-->
+
+    <!--                            <TextView-->
+    <!--                                android:layout_width="wrap_content"-->
+    <!--                                android:layout_height="wrap_content"-->
+    <!--                                android:layout_marginLeft="5dp"-->
+    <!--                                android:text="01.00 MIN"-->
+    <!--                                android:textSize="15sp"-->
+    <!--                                android:textStyle="bold"-->
+    <!--                                android:textColor="#E41B1B"/>-->
+
+    <!--                        </LinearLayout>-->
+
+    <!--                        <LinearLayout-->
+    <!--                            android:layout_width="fill_parent"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:layout_weight="2.0">-->
+
+    <!--                            <pl.droidsonroids.gif.GifImageView-->
+    <!--                                android:layout_width="fill_parent"-->
+    <!--                                android:layout_height="wrap_content"-->
+    <!--                                android:src="@drawable/exersice_1"/>-->
+
+    <!--                        </LinearLayout>-->
+
+    <!--                        <LinearLayout-->
+    <!--                            android:layout_width="wrap_content"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:layout_gravity="center"-->
+    <!--                            android:gravity="center"-->
+    <!--                            android:layout_weight="0.0">-->
+
+    <!--                            <ImageView-->
+    <!--                                android:layout_width="fill_parent"-->
+    <!--                                android:layout_height="wrap_content"-->
+    <!--                                android:layout_margin="5dp"-->
+    <!--                                android:src="@drawable/ic_right_arrow"/>-->
+
+    <!--                        </LinearLayout>-->
+
+
+    <!--                    </LinearLayout>-->
+
+
+    <!--                </LinearLayout>-->
+    <!--                -->
+    <!--            </LinearLayout>-->
+
+
+
+
+
+    <!--        </ScrollView>-->
+
+    <!--    </LinearLayout>-->
+

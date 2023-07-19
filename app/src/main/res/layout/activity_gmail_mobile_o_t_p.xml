@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login.GmailLogin.GmailMobileOTP">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/mobile_otp"
+            android:layout_width="wrap_content"
+            android:layout_height="333dp"
+            android:src="@drawable/ic_mobile_otp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OTP Verification"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter the code sent to"
+            android:textColor="#575252"
+            android:textSize="20sp"
+            android:fontFamily="@font/amaranth"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/entered_mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:textColor="#DF2137"
+            android:textSize="20sp"
+            android:fontFamily="@font/amaranth"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="60dp"/>
+
+        <com.chaos.view.PinView
+            android:id="@+id/admin_otp"
+            style="@style/PinWidget.PinView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center"
+            android:cursorVisible="true"
+            android:inputType="number"
+            app:cursorColor="@color/black"
+            app:itemCount="6"
+            app:itemHeight="50dp"
+            app:itemRadius="5dp"
+            app:itemWidth="50dp"
+            app:lineColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="80dp">
+
+            <TextView
+                android:id="@+id/ques_otp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Didn't Receive the OTP ?"
+                android:fontFamily="sans-serif"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/resendOtp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:text="@string/resend_otp"
+                android:fontFamily="sans-serif"
+                android:textColor="#0B26D3"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/verify_btn"
+            android:layout_width="324dp"
+            android:layout_height="50dp"
+            android:text="@string/verify_otp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/cabin"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/user_details_btn"/>
+
+    </LinearLayout>
+
+</ScrollView>

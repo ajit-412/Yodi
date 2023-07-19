@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login.GmailLogin.GmailMobileNo"
+    android:background="@drawable/gmail_mobile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/amaranth"
+            android:text="Almost Done!"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/belgrano"
+            android:text="Enter mobile number \nto continue"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:fontFamily="@font/cabin"
+            android:text="We will send you an OTP for verification"
+            android:textColor="#0033FF"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="314dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="150dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/heading_des">
+
+            <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+                android:id="@+id/gccp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                app:ccp_arrowSize="18dp"
+                app:ccp_countryPreference="in,us,gb,au"
+                app:ccp_defaultNameCode="in"
+                app:ccp_textSize="18dp" />
+
+            <EditText
+                android:id="@+id/mb_no"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Your Number"
+                android:inputType="phone"
+                android:textColor="@color/black"
+                android:textColorHint="#FFFFFF" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/otp_btn"
+            android:layout_width="324dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="250dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/user_details_btn"
+            android:fontFamily="@font/cabin"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/get_otp"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>
